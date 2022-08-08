@@ -6,8 +6,12 @@
     <title>&lt;my-element> Demo</title>
     <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
     <script src="../node_modules/lit/polyfill-support.js"></script>
-    <script type="module" src="../my-element.js"></script>
-    <style>
+    <script type="module" src="../build/my-element.js"></script>
+    <script type="module" src="../build/componentes/propiedades/mis-propiedades.js"></script>
+    <script type="module" src="../build/componentes/propiedades/ejercicio-propiedades.js"></script>
+    <script type="module" src="../build/componentes/plantillas/mis-condiciones.js"></script>
+    <script type="module" src="../build/componentes/plantillas/mi-listado.js"></script>
+   <style>
       p {
         border: solid 1px blue;
         padding: 8px;
@@ -15,8 +19,32 @@
     </style>
   </head>
   <body>
+
+    <mi-slot-chachi><!--Este es un slot-->
+
+      <h2 slot="cabezera">Esta es la cabezera</h2>
+    </mi-slot-chachi>
     <my-element>
       <p>This is child content</p>
     </my-element>
+    <my-element>
+      <ul>
+        <li>uno</li>
+        <li>dos</li>
+      </ul>
+    </my-element>
+    <mis-propiedades></mis-propiedades>
+    <ejercicio-propiedades valor="qwerty"></ejercicio-propiedades><br><br>
+    
+    <h1>Plantillas</h1>
+    <mis-condiciones></mis-condiciones><br>
+    <h4>Alumnos matriculados</h4>
+    <mi-listado></mi-listado>
+    <mi-slot-chachi>
+     <h2 slot="pie">Este es el pie</h2>
+
+  </mi-slot-chachi>
+
+
   </body>
 </html>

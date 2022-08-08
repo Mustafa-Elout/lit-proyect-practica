@@ -1,0 +1,1 @@
+{"version":3,"file":"mi-listado.d.ts","sourceRoot":"","sources":["../../../src/componentes/plantillas/mi-listado.ts"],"names":[],"mappings":"AAAA;;;;GAIG;AAEF,OAAO,EAAC,UAAU,EAAY,MAAM,KAAK,CAAC;AAI1C,qBACa,SAAU,SAAQ,UAAU;IACvC,OAAgB,MAAM,0BAEpB;IAGsB,OAAO,WAA6B;IAGnD,MAAM;CAahB;AAED,OAAO,CAAC,MAAM,CAAC;IACb,UAAU,qBAAqB;QAC7B,YAAY,EAAE,SAAS,CAAC;KACzB;CACF"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"mi-slot-chachi.d.ts","sourceRoot":"","sources":["../../../src/componentes/plantillas/mi-slot-chachi.ts"],"names":[],"mappings":"AAAA;;;;GAIG;AAEF,OAAO,EAAC,UAAU,EAAY,MAAM,KAAK,CAAC;AAI1C,qBACa,aAAc,SAAQ,UAAU;IAC3C,OAAgB,MAAM,0BACpB;IAGO,MAAM;CAahB;AAED,OAAO,CAAC,MAAM,CAAC;IACb,UAAU,qBAAqB;QAC7B,gBAAgB,EAAE,aAAa,CAAC;KACjC;CACF"}
